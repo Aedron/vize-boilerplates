@@ -1,4 +1,6 @@
-export default function({ data: { tooltip, jumpURL } }) {
+import { PluginParams } from '@vize/types';
+
+export default function ({ data: { tooltip, jumpURL } }: PluginParams) {
   if (/Android|iPhone|iPad|iPod/i.test(window.navigator.userAgent)) {
     return;
   }
