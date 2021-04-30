@@ -15,6 +15,7 @@
     "react-dom": "^16.13.1"
   },
   "devDependencies": {
+    "@vize/cli": "*",
     "standard-version": "^6.0.1"
   }
 }
