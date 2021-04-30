@@ -1,6 +1,6 @@
 {
   "libName": "{{name}}",
   "author": "{{author}}",
-  "runtime": "{{runtime}}",
+  "runtime": "react",
   "releaseTo": ""
 }
